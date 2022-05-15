@@ -4,5 +4,5 @@
     <p>Hi,your email address is <%= current_user.email %></p>
     <%= link_to 'Logout', destroy_user_session_path %>
 <% else %>
-    <%= link_to 'Login', new_user_session_path %>
+    <%= link_to 'Please Login', new_user_session_path %>
 <% end %>
